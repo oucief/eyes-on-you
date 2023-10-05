@@ -1,23 +1,17 @@
-import logo from './logo.svg';
+
+import Navigation from './components/navigation/Navigation';
+import Rank from './components/rank/Rank';
+import ImageLinkForm from './components/image-link-form/ImageLinkForm';
 import './App.css';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navigation /> 
+      <Rank />
+      <ImageLinkForm/>
+      {/* <FaceDetection/> */}
+      
     </div>
   );
 }

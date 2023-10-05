@@ -1,0 +1,19 @@
+.Tilt {
+    box-shadow: 0 0 10px 1px #5d5d5d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.Tilt img {
+    width: 75%;
+}
