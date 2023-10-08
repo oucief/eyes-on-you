@@ -1,0 +1,18 @@
+@import url('./components/navigation/Navigation.css');
+@import url('./components/logo/Logo.css');
+@import url('./components/image-link-form/ImageLinkForm.css');
+
+.App {
+    padding: 0 5%;
+    text-align: center;
+}
+
+.Particles {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 900px;
+    z-index: 999;
+}

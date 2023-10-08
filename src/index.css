@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --first-color: #00DBDE;
+  --second-color: #FC00FF;
+}
+
+body {
+  font-family: monospace, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(90deg, var(--first-color) 0%, var(--second-color) 100%);
+}
+
+@import url('./App.css');
+
+
+
